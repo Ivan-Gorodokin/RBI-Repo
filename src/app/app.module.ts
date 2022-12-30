@@ -10,12 +10,12 @@ import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
-import { DropdownDirectiveDirective } from '../../../cookbook-app/src/app/shared/dropdown.directive.directive';
 import { ShoppingListService } from './shopping-list/shopping-list.service';
 import { AppRoutingModule } from './app-routing.module';
 import { RecipeDefaultComponent } from './recipes/recipe-default/recipe-default.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 import { RecipeService } from './recipes/recipes.service';
+import {DropdownDirectiveDirective} from "./shared/dropdown.directive.directive";
 
 @NgModule({
   declarations: [
