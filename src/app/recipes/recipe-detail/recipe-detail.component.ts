@@ -29,7 +29,6 @@ export class RecipeDetailComponent implements OnInit {
       );
       this.recipeIndex = this.recipeService.getIndexByWebpath(this.recipePath);
     });
-    console.log(this.recipePath);
   }
 
   addToShoppingList() {
