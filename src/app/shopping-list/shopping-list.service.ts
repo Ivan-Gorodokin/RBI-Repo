@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Subject } from 'rxjs-compat';
-import { Ingredient } from '../../../../cookbook-app/src/app/shared/ingredient.model';
+import {Ingredient} from "../shared/ingredient.model";
 
 @Injectable({
   providedIn: 'root',
